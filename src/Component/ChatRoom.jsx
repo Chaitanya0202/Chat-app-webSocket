@@ -16,6 +16,7 @@ const ChatRoom = () => {
     useEffect(() => {
       console.log(userData);
     }, [userData]);
+    
 
     const connect =()=>{
         let Sock = new SockJS('http://localhost:8080/ws');
