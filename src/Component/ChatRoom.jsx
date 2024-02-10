@@ -13,6 +13,7 @@ const ChatRoom = () => {
         connected: false,
         message: ''
       });
+    //useEffect Hook
     useEffect(() => {
       console.log(userData);
     }, [userData]);
